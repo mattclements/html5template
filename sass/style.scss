@@ -8,16 +8,17 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 ============================================================ */
 
 // 1. ROOT 					==============================
-
+ 
 // Compass
 @import "compass";
 
 // CSS reset
-@import "reset";
+@import "html5_reset";
 
 // Variables and mixins
 @import "variables";
 @import "mixins";
+@import "css3";
 
 // Site wide styles (html, body)
 @import "site";
@@ -106,8 +107,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 //  11. UPSTARTS 			==============================
 
 // Modules and panels
-@import "upstarts/320andup-modules/upstart";
-@import "upstarts/320andup-panels/upstart";
+// @import "upstarts/320andup-modules/upstart";
+// @import "upstarts/320andup-panels/upstart";
 
 // Layout option using display:table for navigation positioning
 // @import "upstarts/320andup-display-table/upstart.less";
